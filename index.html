@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/gh/bitbybit-dev/bitbybit-assets@0.15.14.1/runner/bitbybit-runner.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>3D Table Configurator</h1>
+    <div class="myCanvasZone">
+        <canvas id="myCanvas"></canvas>
+    </div>
+    <div>
+        <input id="width" type="range" value="1" min="0.3" max="3" step="0.1" onchange="changeModel(+event.target.value, 'width')">
+        <label for="width">Width</label>
+    </div>
+
+    <div>
+        <input id="length" type="range" value="1" min="0.3" max="3" step="0.1" onchange="changeModel(+event.target.value, 'length')">
+        <label for="width">Length</label>
+    </div>
+
+    <div>
+        <input id="height" type="range" value="0.5" min="0.3" max="1.5" step="0.1" onchange="changeModel(+event.target.value, 'height')">
+        <label for="width">Height</label>
+    </div>
+
+    <div>
+        <input id="thickness" type="range" value="0.05" min="0.01" max="0.25" step="0.01" onchange="changeModel(+event.target.value, 'thickness')">
+        <label for="width">Thickness</label>
+    </div>
+</body>
+</html>

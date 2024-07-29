@@ -1,0 +1,19 @@
+{
+  "name": "3d-table",
+  "version": "1.0.0",
+  "description": "3D table",
+  "main": "script.js",
+  "scripts": {
+    "test": "index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hnatiak/3d-table.git"
+  },
+  "author": "Hnatiak Roman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hnatiak/3d-table/issues"
+  },
+  "homepage": "https://github.com/Hnatiak/3d-table#readme"
+}
